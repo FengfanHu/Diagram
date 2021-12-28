@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T21:49:46.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="xS1haQwIo4kJ7rAj9HuW" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T21:52:21.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="T64LYTKo112PQYO5a7aF" version="16.1.0" type="github">
   <diagram id="jmnAOLzwxY9nIC2-uwGT" name="Page-1">
-    <mxGraphModel dx="946" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,17 +82,17 @@
         <mxCell id="UN0OUWXxMWf2bh11lB0P-25" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#000000&quot;&gt;Run Auto Scaling Policy&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="278" y="180" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UN0OUWXxMWf2bh11lB0P-26" value="If the average backload per instance &amp;gt; 5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="510" y="100" width="260" height="20" as="geometry" />
+        <mxCell id="UN0OUWXxMWf2bh11lB0P-26" value="If the average backload per instance &amp;gt; 5&lt;br&gt;&lt;div style=&quot;text-align: right&quot;&gt;&lt;span&gt;for 1 minute&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="510" y="80" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UN0OUWXxMWf2bh11lB0P-27" value="If there are messages in the queue and&lt;br&gt;&amp;nbsp;the average backload per instance &amp;lt; 5" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="510" y="140" width="260" height="40" as="geometry" />
+        <mxCell id="UN0OUWXxMWf2bh11lB0P-27" value="If there are messages in the queue and the average&lt;br&gt;backload per instance &amp;lt; 5 for 1 minute" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="140" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UN0OUWXxMWf2bh11lB0P-28" value="Backload per instance = &lt;br&gt;&lt;div&gt;&lt;span&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;amazon ember&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;ApproximateNumberOfMessagesVisible+ApproximateNumberOfMessagesNotVisible&lt;/span&gt;&lt;span&gt;)/GroupInServiceCapacity&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="70" y="500" width="710" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UN0OUWXxMWf2bh11lB0P-29" value="or" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="625" y="120" width="30" height="20" as="geometry" />
+          <mxGeometry x="640" y="120" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
