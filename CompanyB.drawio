@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T15:35:17.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="dRdhDy3hiTk5Wyh51vWl" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T20:45:45.875Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="KiWp2YlCZmsWGDxGvyL_" version="16.1.2" type="github">
   <diagram id="cME252c6W4aEXwsCyLv5" name="Page-1">
     <mxGraphModel dx="823" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,14 +39,6 @@
         <mxCell id="pLaGBhMfTqFgUrWbgc2y-4" value="Send messages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="pLaGBhMfTqFgUrWbgc2y-3">
           <mxGeometry x="0.3059" y="3" relative="1" as="geometry">
             <mxPoint x="17" y="-3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pLaGBhMfTqFgUrWbgc2y-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="NMswbRZP6GI7_niNWSXg-15" target="pLaGBhMfTqFgUrWbgc2y-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="260" y="100" />
-              <mxPoint x="420" y="100" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NMswbRZP6GI7_niNWSXg-15" value="DynamoDB table" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.attributes;" parent="1" vertex="1">
@@ -133,13 +125,13 @@
         <mxCell id="pLaGBhMfTqFgUrWbgc2y-17" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.backup;" vertex="1" parent="1">
           <mxGeometry x="394.25" y="30" width="51.5" height="51.5" as="geometry" />
         </mxCell>
-        <mxCell id="pLaGBhMfTqFgUrWbgc2y-19" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_plan;" vertex="1" parent="1">
-          <mxGeometry x="520" y="30" width="38.45" height="50" as="geometry" />
+        <mxCell id="pLaGBhMfTqFgUrWbgc2y-19" value="Backup plan" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_plan;" vertex="1" parent="1">
+          <mxGeometry x="520" y="29.75" width="38.45" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pLaGBhMfTqFgUrWbgc2y-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="pLaGBhMfTqFgUrWbgc2y-20" target="pLaGBhMfTqFgUrWbgc2y-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pLaGBhMfTqFgUrWbgc2y-20" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_restore;" vertex="1" parent="1">
+        <mxCell id="pLaGBhMfTqFgUrWbgc2y-20" value="Backup restore" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_restore;" vertex="1" parent="1">
           <mxGeometry x="270" y="31.75" width="48" height="48" as="geometry" />
         </mxCell>
       </root>
