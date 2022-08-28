@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-28T02:31:11.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="FoeAgHbscGwXgmkwcpY0" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-28T02:31:50.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wnbCCxiCTAwMfItZ3Isw" version="20.2.7" type="github">
   <diagram id="ahrnxP7dzFnDoXyZlv80" name="第 1 页">
     <mxGraphModel dx="2253" dy="-400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,19 +75,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r_awI5zs8guKs30Cjc3F-21" value="The Toulmin model of argumentation" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1790" width="230" height="60" as="geometry" />
+          <mxGeometry x="120" y="1790" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r_awI5zs8guKs30Cjc3F-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r_awI5zs8guKs30Cjc3F-23" target="r_awI5zs8guKs30Cjc3F-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r_awI5zs8guKs30Cjc3F-23" value="Argument from popular opinion" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1950" width="230" height="60" as="geometry" />
+          <mxGeometry x="120" y="1950" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r_awI5zs8guKs30Cjc3F-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r_awI5zs8guKs30Cjc3F-25" target="r_awI5zs8guKs30Cjc3F-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r_awI5zs8guKs30Cjc3F-25" value="Expert opinion ad populum argument" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1870" width="230" height="60" as="geometry" />
+          <mxGeometry x="120" y="1870" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r_awI5zs8guKs30Cjc3F-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="r_awI5zs8guKs30Cjc3F-27" target="r_awI5zs8guKs30Cjc3F-31">
           <mxGeometry relative="1" as="geometry" />
